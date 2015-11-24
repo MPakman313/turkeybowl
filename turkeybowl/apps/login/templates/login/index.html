@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create a Team</title>
+</head>
+<body>
+	<h1>Welcome to The Turkey Bowl</h1>
+	{% for team in teams %}
+		<p>{{ team.team_name }}</p>
+	{% endfor %}
+</body>
+</html>
